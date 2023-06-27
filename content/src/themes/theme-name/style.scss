@@ -1,0 +1,31 @@
+/*!
+Theme Name: Theme Name
+Theme URI: 
+Author: 
+Author URI: 
+Description: 
+Version: 
+License: 
+License URI: 
+Tags: 
+*/
+
+
+/**
+ * Core styles
+ * vars, mixins, helpers, etc.
+ */
+
+@import 'assets/styles/core/**/*';
+
+/**
+ * Global styles
+ */
+
+@import 'assets/styles/globals/**/*';
+
+/**
+ * Compontent styles
+ */
+
+@import 'compontents/**/*';

@@ -1,0 +1,83 @@
+@mixin screen-xs() {
+	@media all and (max-width: $screen-xs-max) {
+		@content;
+	}
+}
+
+@mixin screen-sm() {
+	@media all and (min-width: $screen-sm) and (max-width: $screen-sm-max) {
+		@content;
+	}
+}
+
+@mixin screen-md() {
+	@media all and (min-width: $screen-md) and (max-width: $screen-md-max) {
+		@content;
+	}
+}
+
+@mixin screen-lg() {
+	@media all and (min-width: $screen-lg) {
+		@content;
+	}
+}
+
+@mixin screen-max-xs() {
+	@media all and (max-width: $screen-xs-max) {
+		@content;
+	}
+}
+
+@mixin screen-max-sm() {
+	@media all and (max-width: $screen-sm-max) {
+		@content;
+	}
+}
+
+@mixin screen-max-md() {
+	@media all and (max-width: $screen-md-max) {
+		@content;
+	}
+}
+
+@mixin screen-min-sm() {
+	@media all and (min-width: $screen-sm) {
+		@content;
+	}
+}
+
+@mixin screen-min-md() {
+	@media all and (min-width: $screen-md) {
+		@content;
+	}
+}
+
+@mixin screen-min-lg() {
+	@media all and (min-width: $screen-lg) {
+		@content;
+	}
+}
+
+@mixin screen-min-xl() {
+	@media all and (min-width: $screen-xl) {
+		@content;
+	}
+}
+
+@mixin screen-min-width($width) {
+	@media all and (min-width: #{$width}) {
+		@content;
+	}
+}
+
+@mixin screen-max-width($width) {
+	@media all and (max-width: #{$width}) {
+		@content;
+	}
+}
+
+@mixin screen-width-between($min, $max) {
+	@media all and (min-width: $min) and (max-width: $max) {
+		@content;
+	}
+}

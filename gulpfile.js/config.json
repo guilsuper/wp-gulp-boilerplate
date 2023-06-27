@@ -1,0 +1,30 @@
+{
+	"path": {
+		"src": "./content/src",
+		"dist": "./content/dist",
+		"build": "./content/build"
+	},
+
+	"tasks": {
+		"styles": {
+			"cssnano": {
+				"autoprefixer": {
+					"add": true,
+					"browsers": ["> 1%"]
+				}
+			},
+			"sass": {},
+			"extensions": ["sass", "scss", "css"]
+		},
+
+		"php": {
+			"htmlmin": {
+				"collapseWhitespace": true,
+				"removeAttributeQuotes": true,
+				"removeComments": true,
+				"minifyJS": true
+			},
+			"extensions": ["php", "html"]
+		}
+	}
+}

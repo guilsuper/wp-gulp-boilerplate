@@ -1,0 +1,21 @@
+## General
+
+## Windows
+Desktop.ini
+Thumbs.db
+
+## Mac
+.DS_Store
+
+## Dependencies
+.sass-cache
+bower_components
+node_modules
+
+## Development
+content/src/uploads
+content/build
+content/dist
+
+## Local configs
+config-local.php
